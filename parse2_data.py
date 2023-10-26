@@ -44,8 +44,8 @@ def scrape_season(season):
         with open(save_path, "w+") as f:
             f.write(html)
 
-#for season in SEASONS:
-#    scrape_season(season)
+for season in SEASONS:
+    scrape_season(season)
 
 standings_files = os.listdir(STANDINGS_DIR)
 
